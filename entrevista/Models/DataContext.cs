@@ -18,6 +18,14 @@ namespace entrevista.Models
         public  DbSet<Persona> Persona { get; set; }
         public  DbSet<Certificacion> Certificacion { get; set; }
         public  DbSet<Fecha> Fecha { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Empresa>().ToTable("Empresa");
+            modelBuilder.Entity<Curso>().ToTable("Curso");
+            modelBuilder.Entity<Persona>().ToTable("Persona");
+            modelBuilder.Entity<Certificacion>().ToTable("Certificacion");
+            modelBuilder.Entity<Fecha>().ToTable("Fecha");
+        }
 
     }
 

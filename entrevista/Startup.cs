@@ -35,9 +35,11 @@ namespace entrevista
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddDbContext<DataContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            var connection = @"Server= (local);Database=bddprueba;Trusted_Connection=True;ConnectRetryCount=0";
-            services.AddDbContext<DataContext>(options => options.UseSqlServer(connection));
+            //var connection = @"Server= (local);Database=bddprueba;Trusted_Connection=True;ConnectRetryCount=0";
+            //services.AddDbContext<DataContext>(options => options.UseSqlServer(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

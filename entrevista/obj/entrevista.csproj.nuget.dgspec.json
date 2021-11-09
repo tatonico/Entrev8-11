@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Proyectito\\entrevista\\entrevista\\entrevista.csproj": {}
+    "E:\\Proyectito\\entrevista\\Entrev8\\11\\entrevista\\entrevista.csproj": {}
   },
   "projects": {
-    "E:\\Proyectito\\entrevista\\entrevista\\entrevista.csproj": {
+    "E:\\Proyectito\\entrevista\\Entrev8\\11\\entrevista\\entrevista.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyectito\\entrevista\\entrevista\\entrevista.csproj",
+        "projectUniqueName": "E:\\Proyectito\\entrevista\\Entrev8\\11\\entrevista\\entrevista.csproj",
         "projectName": "entrevista",
-        "projectPath": "E:\\Proyectito\\entrevista\\entrevista\\entrevista.csproj",
+        "projectPath": "E:\\Proyectito\\entrevista\\Entrev8\\11\\entrevista\\entrevista.csproj",
         "packagesPath": "C:\\Users\\tato_\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyectito\\entrevista\\entrevista\\obj\\",
+        "outputPath": "E:\\Proyectito\\entrevista\\Entrev8\\11\\entrevista\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -58,6 +58,10 @@
             "Microsoft.AspNetCore": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
